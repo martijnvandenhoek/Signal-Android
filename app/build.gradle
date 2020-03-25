@@ -448,5 +448,6 @@ sonarqube {
     properties {
         property "sonar.sources", "src/main/java/org/thoughtcrime/securesms/"
         property "sonar.tests", "src/test/java/org/thoughtcrime/securesms/"
+        property "sonar.projectVersion", canonicalVersionName
     }
 }
